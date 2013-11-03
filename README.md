@@ -91,3 +91,10 @@ You must use cucumber version <b>1.1.5</b> or higher.
 * Simplified task configuration
 * Command-line arguments to override task configuration
 
+## "asyougo" Formatter
+
+The "asyougo" formatter is a hacked "pretty" formatter, which displays scenario lines as they are evaluated.
+
+    cucumber {
+        formats = ['asyougo']
+    }
